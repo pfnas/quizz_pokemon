@@ -59,10 +59,15 @@ input {
     padding: 10px;
     color: #1d1d1d;
     border: 5px solid #0071b9;
-    border-width: 0 0 5px;
+    /*border-width: 0 0 5px;
+    */
     outline: 0;
-    box-shadow: O 5px 10px rgba(0, 0, 0 .2);
-
+    box-shadow: 0 15px 10px rgba(12px, 0, 0 .2);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 span {
@@ -82,6 +87,7 @@ span {
         flex-direction: column;
         justify-content: center;
     }
+
 }
 
 @media(max-width: 450px) {
