@@ -82,3 +82,9 @@ span {
         justify-content: space-between;
     }
 }
+
+@media(max-width: 450px) {
+    h1 {
+        font-size: 100px;
+    }
+}
