@@ -14,6 +14,11 @@ body {
     box-sizing: inherit;
 }
 
+h1,
+h2 {
+    margin: 100px 0;
+}
+
 img,
 ul {
     margin: 0;
